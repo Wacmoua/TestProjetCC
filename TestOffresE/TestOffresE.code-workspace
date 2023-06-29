@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../testProjet/testsidebar"
+		},
+		{
+			"path": "../../testProjet/testbutton"
+		}
+	],
+	"settings": {}
+}

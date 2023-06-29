@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inscription</title>
+    <link rel="stylesheet" type="text/css" href="testinscriptionCSS.css" />
+  </head>
+  <body>
+    <div class="container">
+        <form id="particulier-form">
+      <h1>Rejoingnez nous maintenant!</h1>
+      <div class="button">
+        <button id="particulierBtn">Particulier</button>
+        <button id="entrepriseBtn">Entreprise</button>
+      </div>
+      
+        <input
+          type="text"
+          id="prenom1"
+          name="prenom"
+          required
+          placeholder="Prenom"
+        />
+
+        <input type="text" id="nom" name="nom" required placeholder="Nom" />
+
+        <input
+          type="email"
+          id="email1"
+          name="email"
+          required
+          placeholder="Adresse mail"
+        />
+
+        <input
+          type="password"
+          id="password1"
+          name="password"
+          required
+          placeholder="Mot de passe"
+        />
+
+        <input
+          type="password"
+          id="password2"
+          name="password"
+          required
+          placeholder="Confirmer mot de passe"
+        />
+
+        <input type="submit" value="S'inscrire" />
+      </form>
+
+      <form id="entreprise-form">
+        <div class="button">
+            <h1>Rejoignez-nous maintenant en tant qu'Entreprise!</h1>
+          <div id="testbtn"><button id="particulierBtn2">Particulier</button>
+          <button id="entrepriseBtn2">Entreprise</button>
+        </div></div>
+        
+
+        <input
+          type="text"
+          id="Nom entreprise"
+          name="nom entreprise"
+          required
+          placeholder="Nom Entreprise"
+        />
+
+        <input
+          type="text"
+          id="domaine"
+          name="domaine"
+          required
+          placeholder="Domaine d'activité"
+        />
+
+        <input
+          type="email"
+          id="email2"
+          name="email"
+          required
+          placeholder="Adresse mail"
+        />
+
+        <input
+          type="password"
+          id="password3"
+          name="password"
+          required
+          placeholder="Mot de passe"
+        />
+
+        <input
+          type="password"
+          id="password4"
+          name="password"
+          required
+          placeholder="Confirmer mot de passe"
+        />
+        <input type="submit" value="S'inscrire" />
+      
+      <div class="alternative-login">
+    </form>
+        <p>
+          Vous avez déjà un compte ? <a href="login.html">Connectez-vous</a>
+        </p>
+      </div>
+      <div class="privacy-policy">
+        <p>
+          En vous inscrivant, vous acceptez notre
+          <a href="privacy.html">politique de confidentialité</a> et nos
+          <a href="terms.html">conditions d'utilisation</a>.
+        </p>
+      </div>
+    </div>
+    <script src="testinscriptionJS.js"></script>
+  </body>
+</html>
